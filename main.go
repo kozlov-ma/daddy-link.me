@@ -6,9 +6,9 @@ import (
 
 	"github.com/google/uuid"
 
-	"changemedaddy/internal/page"
-	"changemedaddy/internal/page/attr/title"
-	"changemedaddy/internal/page/el/btn"
+	"daddy-link.me/internal/page"
+	"daddy-link.me/internal/page/attr/title"
+	"daddy-link.me/internal/page/el/btn"
 )
 
 func main() {

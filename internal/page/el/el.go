@@ -3,7 +3,7 @@ package el
 import (
 	"github.com/google/uuid"
 
-	"changemedaddy/internal/styled"
+	"daddy-link.me/internal/styled"
 )
 
 // An Element is a container for a page element, i.e. Button, Image, etc.

@@ -1,4 +1,4 @@
-module changemedaddy
+module daddy-link.me
 
 go 1.22
 

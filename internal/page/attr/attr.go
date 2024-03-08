@@ -3,7 +3,7 @@ package attr
 import (
 	"github.com/google/uuid"
 
-	"changemedaddy/internal/styled"
+	"daddy-link.me/internal/styled"
 )
 
 // An Attribute is a container for a page attribute, i.e. Title, Avatar, etc.

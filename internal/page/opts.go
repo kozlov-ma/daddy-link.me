@@ -1,8 +1,8 @@
 package page
 
 import (
-	"changemedaddy/internal/page/attr"
-	"changemedaddy/internal/page/el"
+	"daddy-link.me/internal/page/attr"
+	"daddy-link.me/internal/page/el"
 )
 
 type Option interface {

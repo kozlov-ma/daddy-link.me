@@ -3,7 +3,7 @@ package title
 import (
 	"github.com/google/uuid"
 
-	"changemedaddy/internal/page/attr"
+	"daddy-link.me/internal/page/attr"
 )
 
 // write a Title attribute, similar to el.btn.Button

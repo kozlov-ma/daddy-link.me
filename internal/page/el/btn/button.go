@@ -3,7 +3,7 @@ package btn
 import (
 	"github.com/google/uuid"
 
-	"changemedaddy/internal/page/el"
+	"daddy-link.me/internal/page/el"
 )
 
 // A Button represents a Button on the website. It displays a Title.

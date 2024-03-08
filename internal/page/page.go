@@ -3,8 +3,8 @@ package page
 import (
 	"github.com/google/uuid"
 
-	"changemedaddy/internal/page/attr"
-	"changemedaddy/internal/page/el"
+	"daddy-link.me/internal/page/attr"
+	"daddy-link.me/internal/page/el"
 )
 
 // A Page represents page content on the website.
