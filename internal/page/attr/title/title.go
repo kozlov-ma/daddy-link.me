@@ -14,11 +14,11 @@ type Title struct {
 }
 
 func (t Title) CSS() string {
-	return "Title"
+	return "title"
 }
 
 func (t Title) DType() string {
-	return "Title"
+	return "title"
 }
 
 func New(id uuid.UUID, text string) attr.Attribute {

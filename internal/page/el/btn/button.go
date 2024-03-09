@@ -14,11 +14,11 @@ type Button struct {
 }
 
 func (b Button) CType() string {
-	return "Button"
+	return "button"
 }
 
 func (b Button) CSS() string { // here we use a value receiver to state that Button is immutable
-	return "Button"
+	return "button"
 }
 
 // New creates a new Button as an Element, filling CType and CSS fields.
