@@ -7,6 +7,8 @@ import (
 )
 
 // An Attribute is a container for a page attribute, i.e. Title, Avatar, etc.
+// An Attribute of one given type may be present at most once in a page, i.e.
+// a Page cannot have two Avatars.
 type Attribute struct {
 	// A unique identifier for an attribute
 	ID uuid.UUID `json:"id" bson:"_id"`
