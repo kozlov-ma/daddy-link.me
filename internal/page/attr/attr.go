@@ -14,10 +14,10 @@ type Attribute struct {
 	ID uuid.UUID `json:"id" bson:"_id"`
 
 	// CSS is a CSS classes string for the attribute. Must be taken from D.CSS().
-	CSS string `json:"CSS" bson:"CSS"`
+	CSS string `json:"css" bson:"css"`
 
 	// DType represents the data type of Attribute, i.e. "avatar". Will be taken from D.DType() by a constructor.
-	DType string `json:"attr_type" bson:"DType"`
+	DType string `json:"dtype" bson:"dtype"`
 
 	// Data of the attribute.
 	D Data `json:"data" bson:"data"`

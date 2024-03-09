@@ -12,13 +12,13 @@ type Element struct {
 	ID uuid.UUID `json:"id" bson:"_id"`
 
 	// A rendering order of an element. Lower numbers are rendered first.
-	RendOrder int `json:"rendering_order" bson:"rend_order"`
+	RendOrder int `json:"rendOrder" bson:"rend_order"`
 
 	// CSS classes string for the element. Must be taken from C.CSS().
-	CSS string `json:"CSS" bson:"CSS"`
+	CSS string `json:"css" bson:"css"`
 
 	// Type of the element's content, i.e. "button", "image", etc. Will be taken from C.CType() by a constructor.
-	CType string `json:"content_type" bson:"CType"`
+	CType string `json:"ctype" bson:"ctype"`
 
 	// Content of the element.
 	C Content `json:"content" bson:"content"`

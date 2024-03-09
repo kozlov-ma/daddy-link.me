@@ -17,7 +17,7 @@ type Page struct {
 
 func New(id uuid.UUID, opts ...Option) (*Page, error) {
 
-	p := &Page{ID: id}
+	p := &Page{ID: id, Attributes: make(map[string]attr.Attribute)}
 
 	for _, opt := range opts {
 		if err := opt.apply(p); err != nil {
